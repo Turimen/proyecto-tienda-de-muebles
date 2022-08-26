@@ -11,7 +11,7 @@ databaseConnection.connect((error) => {
   if (error) {
     console.log(error);
   } else {
-    console.log("Servidor conectado a MYSQL");
+    console.log("Servidor conectado a bien a MYSQL");
   }
 });
 module.exports = databaseConnection;
